@@ -1,0 +1,84 @@
+.navbar{
+    background: #233142; 
+    width: 100%;
+    height: fit-content;
+
+}
+.nav-item {
+    color: #e7eaf6 !important;
+    list-style: none;
+    display:inline-block;
+    padding: 15px;
+    background-color: #38598b;
+    font-size: 16px;
+    
+}
+.navDropdownFalse .nav-item a{
+    color: #e7eaf6;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+}
+.navDropdownFalse  .nav-item:hover, .navDropdownFalse .nav-item a:hover{
+    background-color: #e7eaf6;
+    color: #38598b !important;
+}
+.navDropdownFalse  .nav-active {
+    background: #233142; 
+    text-decoration: underline;
+}
+
+
+body {
+    background: #e3e3e3; 
+}
+.nav-icon img{
+    list-style: none;
+    padding: 15px;
+    background-color: #233142;
+    cursor: pointer;
+}
+button{
+    display: contents;
+}
+.navDropdownFalse  .nav-icon{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    .nav-item{
+        display: none;
+    }
+    .nav-icon{
+        display: inline-block!important;
+    }
+}
+
+.navDropdownTrue .navbar{
+    background: #233142; 
+    width: 100%;
+    height: fit-content;
+
+}
+.navDropdownTrue .nav-item{
+    color: #e7eaf6 !important;
+    list-style: none;
+    display: block;
+    padding: 15px;
+    background-color: #38598b;
+    font-size: 16px;
+}
+.navDropdownTrue #nav-item:hover, .navDropdownTrue .nav-item a:hover{
+    background-color: #e7eaf6;
+    color: #38598b !important;
+}
+.navDropdownTrue .nav-active {
+    background: #233142; 
+    text-decoration: underline;
+}
+.navDropdownTrue .nav-item a{
+    color: #e7eaf6;
+    text-decoration: none;
+    font-size: 22px;
+    display: block;
+}

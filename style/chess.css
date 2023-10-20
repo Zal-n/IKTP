@@ -1,0 +1,30 @@
+.white{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+
+}
+.black{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+
+}
+.chess_table{
+    border: 15px solid black;
+    padding: 15px;
+    margin: 60px auto auto auto ;
+
+}
+@media screen and (max-width: 1350px) and (min-width:700px){
+    .white, .black{
+        width: 75px;
+        height: 75px;
+    }
+}
+@media screen and (max-width: 700px) and (min-width:400px){
+    .white, .black{
+        width: 32px;
+        height: 32px;
+    }
+}

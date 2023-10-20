@@ -1,0 +1,80 @@
+.content{
+    margin: auto auto;
+    width: 75%;
+    background-color: #233142;
+    height: fit-content;
+    padding: 10px;
+    min-width: 1100px;
+    margin-top: 15px;
+}
+.inner-content{
+    width: 90%;
+    background-color: #455d7a;
+    margin: auto auto;
+    padding: 15px;
+    color: #e3e3e3;
+    margin-top: 15px;
+}
+.inner-content img{
+    width: 200px;
+    margin: auto auto;   
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+}
+.adatok h1, .adatok h3 {
+    text-align: center;
+}
+
+.vonal{
+    background-color: black;
+    width: 2px;
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 250px;
+}
+.cim{
+    display: inline-block;
+    margin-right: 10px;
+}
+.elerhetoseg .adat{
+    display: inline-block;
+}
+.tanulmany .adat{
+    display: block;
+}
+.elerhetoseg{
+    height: 250px;
+}
+.h250{
+    height: 250px;
+}
+.tanulmany{
+    height: 250px;
+}
+
+@media screen and (max-width: 768px) and (min-width:450px){
+    .content{
+        min-width: 440px;
+    }
+    body{
+        font-size: smaller;;
+    }
+}
+@media screen and (max-width: 450px) {
+    .content{
+        width: 100%;
+        min-width: 0;
+
+    }
+    body{
+        font-size: x-small;;
+    }
+}
+
+.inner-content ul{
+    display: inline-block;
+    list-style: none;
+    line-height: 50px;
+    font-weight: 300;
+}
